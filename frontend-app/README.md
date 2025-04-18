@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🌟 Contacts Frontend App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The `Contacts Frontend App` is a React-based application for managing user contacts. It provides a user-friendly interface to perform CRUD operations on contacts, including creating, reading, updating, and deleting contacts.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- 📋 Add, edit, delete, and view contact details.
+- 🔍 Search functionality to filter contacts by name or email.
+- 🖼️ Responsive design using Semantic UI for styling.
+- 🔗 Integration with a backend API for data persistence.
 
-### `npm start`
+## 📋 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🖥️ Node.js (v14 or later)
+- 📦 npm (Node Package Manager)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the frontend directory:
+   ```bash
+   cd frontend-app
+   ```
 
-### `npm run build`
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Start the development server:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open the app in your browser at `http://localhost:3000`.
 
-### `npm run eject`
+## 📡 API Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app communicates with a backend API for managing contacts. Update the `baseURL` in `src/api/contacts.js` to point to your backend server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🗂️ Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `src/index.js` - Entry point of the application.
+- `src/components/` - Contains React components for the app.
+  - `App.js` - Main component managing routes and state.
+  - `AddContact.js` - Component for adding a new contact.
+  - `EditContact.js` - Component for editing an existing contact.
+  - `ContactList.js` - Component for displaying the list of contacts.
+  - `ContactDetail.js` - Component for viewing contact details.
+  - `Header.js` - Header component for the app.
+  - `ContactCard.js` - Component for rendering individual contact cards.
+  - `withRouter.js` - Higher-order component for navigation.
+- `src/api/contacts.js` - Axios instance for API calls.
+- `src/images/` - Contains static assets like images.
+- `public/index.html` - HTML template for the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🖌️ Styling
 
-## Learn More
+The app uses Semantic UI for styling. Ensure you have an internet connection to load the Semantic UI CSS from the CDN.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
