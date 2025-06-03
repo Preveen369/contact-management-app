@@ -1,13 +1,16 @@
 # 🌟 Contact Management App
 
-![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=white&style=for-the-badge)
-![Express](https://img.shields.io/badge/Backend-Express.js-000000?logo=express&logoColor=white&style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
-![JWT](https://img.shields.io/badge/Auth-JWT-FFB400?logo=jsonwebtokens&logoColor=black&style=for-the-badge)
-![bcrypt](https://img.shields.io/badge/Security-bcrypt-003B57?logo=security&logoColor=white&style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)
+![Frontend](https://img.shields.io/badge/Frontend-React.js-61dafb.svg)
+![Backend](https://img.shields.io/badge/Backend-Express.js-black.svg)
+![Runtime](https://img.shields.io/badge/Runtime-Node.js-green.svg)
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen.svg)
+![Auth](https://img.shields.io/badge/Auth-JWT-orange.svg)
+![Security](https://img.shields.io/badge/Security-bcrypt-blue.svg)
+![API](https://img.shields.io/badge/API-RESTful-lightgrey.svg)
+![UI](https://img.shields.io/badge/UI-Semantic_UI-teal.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
 The `contact-management-app` is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It is designed to provide users with a seamless and intuitive experience to manage personal contacts. The application includes full CRUD functionality—Create, Read, Update, and Delete contacts—with secure user authentication and efficient backend services for real-time data operations.
 
