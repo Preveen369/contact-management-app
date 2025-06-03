@@ -1,6 +1,7 @@
 # 🌟 Contact Management App
 
-The `contact-management-app` is a full-stack MERN (MongoDB, Express, React, Node.js) application for managing user contacts. It provides a user-friendly interface for performing CRUD operations on contacts, along with secure backend services for user authentication and data management.
+The `contact-management-app` is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It is designed to provide users with a seamless and intuitive experience to manage personal contacts. The application includes full CRUD functionality—Create, Read, Update, and Delete contacts—with secure user authentication and efficient backend services for real-time data operations.
+
 
 ## ✨ Features
 
