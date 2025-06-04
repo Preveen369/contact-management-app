@@ -12,7 +12,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
-The `contact-management-app` is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It is designed to provide users with a seamless and intuitive experience to manage personal contacts. The application includes full CRUD functionality—Create, Read, Update, and Delete contacts—with secure user authentication and efficient backend services for real-time data operations.
+The **contact-management-app** is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It is designed to provide users with a seamless and intuitive experience to manage personal contacts. The application includes full CRUD functionality—Create, Read, Update, and Delete contacts—with secure user authentication and efficient backend services for real-time data operations.
 
 
 ## ✨ Features
