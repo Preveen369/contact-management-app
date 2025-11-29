@@ -6,7 +6,7 @@
 ![Runtime](https://img.shields.io/badge/Runtime-Node.js-green.svg)
 ![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen.svg)
 ![Auth](https://img.shields.io/badge/Auth-JWT-orange.svg)
-![Security](https://img.shields.io/badge/Security-bcrypt-blue.svg)
+![Security](https://img.shields.io/badge/Security-bcrypt-red.svg)
 ![API](https://img.shields.io/badge/API-RESTful-lightgrey.svg)
 ![UI](https://img.shields.io/badge/UI-Semantic_UI-teal.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
